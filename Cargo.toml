@@ -1,0 +1,14 @@
+[package]
+name = "chip8-emu"
+version = "0.1.0"
+authors = ["Robert Bartlensky <bartlensky.robert@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+clap = "2.33.0"
+piston_window = "0.99.0"
+rand = "0.7.0"
+
+[lib]
+name = "chip8"
+path = "src/lib.rs"
